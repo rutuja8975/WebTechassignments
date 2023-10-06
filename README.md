@@ -1,1 +1,4 @@
 # WebTechassignments
+loginPage
+newspaperAssignment
+LoginCloneAssignment
