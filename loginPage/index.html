@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login page</title>
+	<style type="text/css">
+      body
+      {
+      	background-image: url('https://t4.ftcdn.net/jpg/04/27/86/39/360_F_427863926_mPyhfWhQX8v1JeF8Hj1X1AekchvSGdZt.jpg');
+      	background-repeat: no-repeat;
+      	background-attachment: fixed;
+      	background-size: cover;
+      }
+      fieldset
+      {
+      	width: 20%;
+      	height: 300px;
+      	margin-left: 35%;
+      	padding: 50px;
+      	background-color: transparent;
+      	margin-top: 100px;
+      	box-shadow: -5px 5px 4px transparent;
+
+      	border: transparent;
+      	border-color: purple;
+      	border-radius: 5%;
+      }
+      h1
+      {
+      	text-align: center;
+      	margin-top: 10px;
+      	font-family: serif;
+      	text-transform: uppercase;
+      	color: white;
+      	letter-spacing: 10px;
+
+      }
+      input:focus
+		{
+			outline: none;
+		}
+
+	input[type="button"]
+		{
+			background-color: navy;
+			color: white;
+			margin-top: 1px;
+			border: 1px solid navy;
+			height: 10%;
+			font-weight: bolder;
+			text-transform: uppercase;
+			border-radius: 20px;
+			cursor: pointer;
+
+		}
+	input
+			{
+		    width: 95%;
+			margin-top: 10px;
+			height: 20px;
+			background-color: transparent;
+			border: none;
+			border-bottom: 2px solid white;
+			color: white;
+			font-weight: bolder;
+			text-align: center;
+			padding-top: 10px;
+			}
+       .up
+		{
+			color:  white;
+			font-style: italic;
+			font-family: times new roman;
+			font-size: large;
+			text-align: center;
+			margin-left: 80px;
+		}
+	a
+	{
+		text-align: center;
+		margin-left: 60px;
+	}
+
+	</style>
+</head>
+<body>
+       <div class="background1">
+       	<div class=loginform>
+       		 <form autocomplete="off">
+       		 	<fieldset>
+       		 		<h1>Login</h1>
+       		 		<label class="up">Username</label>
+       		 		<br><br>
+       		 		<input type="text" name="username" placeholder="Enter Username">
+       		 		<br><br>
+       		 		<label class="up">Password</label>
+       		 		<br><br>
+       		 		<input type="Password" name="Pass" placeholder="Enter Password">
+       		 	<br><br>
+       		 	<a href="#">Forgot Password?</a>
+       		 	<br><br>
+       		 	<input type="button" name="login" value="LOGIN">
+                  
+       		 	</fieldset>
+       		 </form>
+       	</div>
+       </div>
+</body>
+</html>
